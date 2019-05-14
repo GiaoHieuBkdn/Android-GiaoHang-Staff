@@ -1,0 +1,77 @@
+<resources>
+
+    <!--View size-->
+    <dimen name="nav_height">72dp</dimen>
+    <dimen name="nav_height_half">36dp</dimen>
+
+
+    <!--Text size-->
+    <dimen name="text_size_35">45sp</dimen>
+    <dimen name="text_size_30">40sp</dimen>
+    <dimen name="text_size_24">32sp</dimen>
+    <dimen name="text_size_22">30sp</dimen>
+    <dimen name="text_large_20">26sp</dimen>
+    <dimen name="text_large_17">25sp</dimen>
+    <dimen name="text_medium_16">24sp</dimen>
+    <dimen name="text_medium_15">23sp</dimen>
+    <dimen name="text_small_14">22sp</dimen>
+    <dimen name="text_small_13">21sp</dimen>
+    <dimen name="text_small_12">20sp</dimen>
+    <dimen name="text_small_11">19sp</dimen>
+    <dimen name="text_small_10">15sp</dimen>
+    <dimen name="text_small_9">13sp</dimen>
+    <dimen name="text_small_8">12sp</dimen>
+    <dimen name="text_small_6">11sp</dimen>
+    <dimen name="edittext_height">72dp</dimen>
+    <dimen name="button_height">64dp</dimen>
+    <dimen name="nev_40">-64dp</dimen>
+    <dimen name="button_height_small">54dp</dimen>
+    <dimen name="padding_nav_icon">24dp</dimen>
+    <dimen name="padding_nav_icon_right">22dp</dimen>
+    <dimen name="height_logo_login">130dp</dimen>
+    <dimen name="margin_top_logo_login">72dp</dimen>
+    <dimen name="margin_top_btn_login">30dp</dimen>
+    <dimen name="height_icon_menu">42dp</dimen>
+    <dimen name="padding_content_menu">24dp</dimen>
+    <dimen name="height_edittext_search">54dp</dimen>
+    <dimen name="height_icon_filter">20dp</dimen>
+    <dimen name="width_status_sm">8dp</dimen>
+    <dimen name="margin_employees_item">15dp</dimen>
+    <dimen name="corners_status">28dp</dimen>
+    <dimen name="margin_serch_box">15dp</dimen>
+    <dimen name="padding_infor">5dp</dimen>
+    <dimen name="height_calendar">38dp</dimen>
+
+    <dimen name="edittext_margin_top">18dp</dimen>
+    <dimen name="height_code">44dp</dimen>
+    <dimen name="item_offset">25dp</dimen>
+    <dimen name="item_offset_work">70dp</dimen>
+    <dimen name="height_avatar">120dp</dimen>
+    <dimen name="height_avatar_94">130dp</dimen>
+    <dimen name="height_avatar_110">160dp</dimen>
+    <dimen name="height_avatar_100">145dp</dimen>
+    <dimen name="height_avatar_54">84dp</dimen>
+    <dimen name="tab_height">48dp</dimen>
+    <dimen name="tab_infor_height">36dp</dimen>
+    <dimen name="height_status">44dp</dimen>
+    <dimen name="width_status">180dp</dimen>
+    <dimen name="width_status_2">175dp</dimen>
+    <dimen name="height_icon_small">32dp</dimen>
+    <dimen name="height_bg_profile">320dp</dimen>
+    <dimen name="padding_profile_menu">25dp</dimen>
+    <dimen name="heigh_icon_marker">23dp</dimen>
+    <dimen name="heigh_icon_small">20dp</dimen>
+    <dimen name="heigh_icon_small_2">18dp</dimen>
+    <dimen name="height_avatar_50">70dp</dimen>
+    <dimen name="height_avatar_80">112dp</dimen>
+    <dimen name="height_avatar_60">84dp</dimen>
+    <dimen name="margin_edi_profilet_icon">10dp</dimen>
+    <dimen name="height_icon_small_2">14dp</dimen>
+    <dimen name="negative_10">-14dp</dimen>
+    <dimen name="radius_action_border">15dp</dimen>
+    <dimen name="width_quality_product">110dp</dimen>
+    <dimen name="width_ic_tick_product">30dp</dimen>
+    <dimen name="height_ic_tick_product">29dp</dimen>
+    <dimen name="height_layout_signature">320dp</dimen>
+    <dimen name="edittext_margin">6.4dp</dimen>
+</resources>

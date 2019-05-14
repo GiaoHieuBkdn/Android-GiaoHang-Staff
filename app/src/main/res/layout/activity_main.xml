@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    xmlns:round_image="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="end">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/layout_left_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:clickable="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/bg_profile_menu" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/padding_profile_menu"
+                android:paddingTop="@dimen/padding_profile_menu">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.bys.sangngoc.views.RoundedConnerImageView
+                        android:id="@+id/imv_avatar"
+                        android:layout_width="@dimen/height_avatar_94"
+                        android:layout_height="@dimen/height_avatar_94"
+                        android:background="@drawable/bg_avatar"
+                        android:padding="7dp"
+                        android:scaleType="centerCrop"
+                        round_image:corner_radius="@dimen/height_avatar" />
+                </FrameLayout>
+
+                <com.bys.sangngoc.views.CustomFontTextView
+                    android:id="@+id/tv_fullname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size_22"
+                    font:fontText="fonts/sf_pro_display_regular.otf" />
+
+                <com.bys.sangngoc.views.CustomFontTextView
+                    android:id="@+id/tv_employees_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:text="Mã nhân viên: NV-007"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf" />
+
+                <com.bys.sangngoc.views.CustomFontTextView
+                    android:id="@+id/tv_employees_branch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_small_13"
+                    font:fontText="fonts/sf_pro_display_regular.otf" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imv_edit_profile"
+                android:layout_width="@dimen/height_icon_small"
+                android:layout_height="@dimen/height_icon_small"
+                android:layout_gravity="right"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:padding="2dp"
+                android:src="@drawable/ic_edit_profile"
+                android:visibility="gone" />
+
+        </FrameLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerview_menu"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <com.bys.sangngoc.views.CustomFontTextView
+            android:id="@+id/tv_version_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"
+            android:textColor="@color/text_color_grey"
+            android:textSize="@dimen/text_small_14"
+            font:fontText="fonts/sf_pro_display_regular.otf" />
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

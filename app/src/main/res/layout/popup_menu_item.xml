@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_menu_item"
+    android:padding="10dp">
+
+    <com.bys.sangngoc.views.CustomFontTextView
+        android:id="@+id/tv_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="Mã nhân viên: NV-007"
+        android:textColor="@color/text_color_grey"
+        android:textSize="@dimen/text_small_13"
+        font:fontText="fonts/sf_pro_display_regular.otf" />
+
+</LinearLayout>

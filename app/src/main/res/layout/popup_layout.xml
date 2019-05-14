@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:font="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_editext_box"
+    android:orientation="vertical">
+    <com.bys.sangngoc.views.CustomFontTextView
+        android:id="@+id/view_all_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Xem tất cả hình ảnh"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_small_14"
+        font:fontText="fonts/sf_pro_display_light.otf" />
+    <com.bys.sangngoc.views.CustomFontTextView
+        android:id="@+id/view_history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Xem lịch sử cập nhật"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_small_14"
+        font:fontText="fonts/sf_pro_display_light.otf" />
+    <com.bys.sangngoc.views.CustomFontTextView
+        android:id="@+id/view_problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:maxLines="2"
+        android:padding="15dp"
+        android:layout_marginRight="20dp"
+        android:text="Gặp khó khăn"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_small_14"
+        font:fontText="fonts/sf_pro_display_light.otf" />
+
+</LinearLayout>

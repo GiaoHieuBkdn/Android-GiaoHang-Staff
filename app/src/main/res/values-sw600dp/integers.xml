@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="padding_left_right_flicka">100</integer>
+	<integer name="padding_top_bottom_flicka">30</integer>
+	<integer name="max_elevation_factor">16</integer>
+	<integer name="width_call_list">280</integer>
+</resources>
